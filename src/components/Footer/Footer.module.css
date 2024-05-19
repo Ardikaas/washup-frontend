@@ -1,0 +1,136 @@
+@font-face {
+  font-family: 'Maison Neue';
+  src: url('../../../public/assets/fonts/MaisonNeueDemi.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maison Neue';
+  src: url('../../../public/assets/fonts/MaisonNeueLight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maison Neue Extended';
+  src: url('../../../public/assets/fonts/MaisonNeueExtendedBlack.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maison Neue Extended';
+  src: url('../../../public/assets/fonts/MaisonNeueExtendedExtraThin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+.footer{
+  margin: 45px;
+}
+.footercard{
+  background-image: linear-gradient(145deg, #FAFD30, #BF7FFC, #D3F4FE);
+  margin: 0px;
+  padding: 70px 70px 0px 70px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  gap: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerup{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: self-start;
+}
+
+.footerlink{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 1.5rem;
+}
+
+.footerlinkfont{
+  color: #101010;
+  text-decoration: none;
+  font-family: Maison Neue;
+  font-weight: 500;
+
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footlogo{
+  width: 375px;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+.footplaystore{
+  width: 375px;
+  height: auto;
+}
+
+.footappstore{
+  width: 375px;
+  height: auto;
+}
+
+.footerdown{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.footerabout{
+  display: flex;
+  flex-direction: row;
+  gap: 125px;
+}
+
+.aboutlink{
+  color: #101010;
+  font-family: Maison Neue;
+  font-weight: 300;
+  font-size: 1.45rem;
+}
+
+.copyright h1{
+  font-family: Maison Neue Extended;
+  font-weight: 900;
+  font-size: 7rem;
+  padding-top: 60px;
+  color: #101010;
+  margin: 0;
+  line-height: 0.55;
+}
+
+.copyright{
+  margin: 0;
+}
+
+.blackfoot{
+  background-color: #101010;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blackfoot h4{
+  font-family: Maison Neue Extended;
+  font-weight: 100;
+  margin: 0;
+  padding: 10px;
+  font-size: 1.2rem;
+  color: #FCFCFC;
+}

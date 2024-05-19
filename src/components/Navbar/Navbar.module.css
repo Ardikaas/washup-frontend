@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Maison Neue';
+  src: url('../../../public/assets/fonts/MaisonNeueExtendedMedium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+.navbar{
+  margin: 0;
+  background-color: #101010;
+  padding: 30px 40px 30px 40px;
+}
+
+.navbarcard{
+  background-color: #FCFCFC;
+  display: flex;
+  border: 1px solid #101010;
+  padding: 15px 45px 15px 45px;
+  border-radius: 50px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imagenavbar{
+  width: 170px;
+  height: auto;
+}
+
+.linknavbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.link{
+  font-family: Maison Neue;
+  font-weight: 500;
+  color: #101010;
+  text-decoration: none;
+}
+
+.register{
+  font-family: Maison Neue;
+  font-weight: medium;
+  padding: 10px 25px 10px 25px;
+  border-radius: 40px;
+  background-color: #101010;
+  color: #FCFCFC;
+  text-decoration: none;
+}
