@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Maison Neue Extended';
+  src: url('../../../public/assets/fonts/MaisonNeueExtendedBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.switchcontainer {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.switch{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: #fcfcfc;
+  padding: 5px;
+  border-radius: 70px;
+  position: relative;
+}
+
+.indicator{
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  /* right: 10px; */
+  left: 5px;
+  width: calc(50% - 10px);
+  border-radius: 70px;
+  transition: transform 0.3s ease;
+  background: linear-gradient(to right, #fafd30, #bf7ffC, #d3f4fe);
+}
+
+.pelanggan{
+  transform: translateX(0);
+}
+
+.mitra{
+  transform: translateX(calc(100% + 10px));
+}
+
+.button {
+  font-family: Maison Neue Extended;
+  padding: 15px 72.5px;
+  border-radius: 70px;
+  border: none;
+  font-size: 2rem;
+  font-weight: 700;
+  background: transparent;
+  z-index: 1;
+}
